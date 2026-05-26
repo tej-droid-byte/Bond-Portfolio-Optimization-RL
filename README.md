@@ -7,30 +7,30 @@
 ![Finance](https://img.shields.io/badge/Finance-Portfolio%20Optimization-red)
 
 <p align="center">
-  <img src="screenshots/Bond RL Dashboard.png" width="900">
+  <img src="screenshots/Bond%20Market%20Portfolio%20Optimization%20Dashboard%20Overview.png" width="900">
 </p>
 
-Reinforcement learning–based bond portfolio optimization project leveraging Deep Q-Networks (DQN) for trading strategy development and Power BI dashboards for portfolio analytics and decision visualization.
+Reinforcement learning–based bond portfolio optimization project leveraging Deep Q-Networks (DQN) for trading strategy development and interactive Power BI dashboards for portfolio analytics and agent behavior visualization.
 
-The project simulates portfolio decisions using Buy–Sell–Hold actions and evaluates agent performance using cumulative reward trends and portfolio behavior analysis.
+The project simulates Buy–Sell–Hold decisions within a bond portfolio environment and evaluates portfolio evolution using cumulative rewards and trading behavior analysis.
 
 ---
 
 # 📌 Project Description
 
-This project focuses on portfolio optimization in bond markets using Reinforcement Learning.
+This project focuses on optimizing bond portfolio decisions using Reinforcement Learning.
 
-A DQN agent was trained to learn optimal trading behavior by interacting with a financial environment and selecting actions:
+A Deep Q-Network (DQN) agent was trained to interact with a portfolio environment and learn optimal trading actions:
 
 - Buy
 - Sell
 - Hold
 
-The objective was to maximize portfolio performance and cumulative rewards while learning trading behavior dynamically from market states.
+The objective was to maximize cumulative rewards while learning effective portfolio management strategies dynamically from environment feedback.
 
-Power BI dashboards were developed to analyze:
+The Power BI dashboard enables exploration of:
 
-- Portfolio performance
+- Portfolio performance evolution
 - Reward progression
 - Trading decisions
 - Agent behavior distribution
@@ -40,23 +40,23 @@ Power BI dashboards were developed to analyze:
 
 # ⚙️ Methodology / Workflow
 
-## 1. Data Preparation
+## 1. Environment & Data Preparation
 
-Bond market information and portfolio state variables were prepared for RL training.
+Bond market observations and portfolio state information were prepared for RL training.
 
-Input features included:
+Inputs included:
 
 - Portfolio state representation
-- Market observations
-- Trading decisions
+- Trading actions
 - Reward signals
+- Environment observations
 
-Preprocessing included:
+Preprocessing steps:
 
 - State generation
-- Environment construction
 - Reward formulation
-- Sequential episode setup
+- Episode creation
+- Environment simulation
 
 ---
 
@@ -73,22 +73,22 @@ State Observation
             ↓
 DQN Agent
             ↓
-Buy / Sell / Hold Decision
+Buy / Sell / Hold Action
             ↓
 Reward Calculation
             ↓
 Portfolio Update
 ```
 
-The agent continuously learned through environment interaction and reward feedback.
+The agent continuously improved its policy using reward feedback from the environment.
 
 ---
 
 ## 3. Power BI Dashboard Development
 
-Interactive dashboards were created for reinforcement learning performance analysis.
+Interactive dashboards were developed to visualize reinforcement learning outcomes.
 
-Dashboard components include:
+Dashboard Components:
 
 ✅ Portfolio Performance Trend
 
@@ -109,7 +109,7 @@ Dashboard components include:
 
 # 📊 Dashboard Preview
 
-![Dashboard](screenshots/Bond RL Dashboard.png)
+![Dashboard](screenshots/Bond%20Market%20Portfolio%20Optimization%20Dashboard%20Overview.png)
 
 ---
 
@@ -123,7 +123,7 @@ Dashboard components include:
 - NumPy
 - Pandas
 
-## Analytics & Visualization
+## Visualization & Analytics
 
 - Power BI
 - DAX
@@ -152,7 +152,7 @@ Bond-Portfolio-Optimization-RL/
 │   └── bond_portfolio_rl.ipynb
 │
 ├── screenshots/
-│   └── Bond RL Dashboard.png
+│   └── Bond Market Portfolio Optimization Dashboard Overview.png
 │
 ├── README.md
 └── .gitignore
@@ -162,14 +162,15 @@ Bond-Portfolio-Optimization-RL/
 
 # 📈 Results
 
-The DQN agent learned portfolio behavior through sequential interactions and demonstrated positive cumulative reward progression.
+The DQN agent demonstrated learning behavior through sequential interactions and achieved positive cumulative reward progression.
 
-Power BI dashboards enabled interactive exploration of:
+Power BI dashboards enabled interactive analysis of:
 
-- Reward trends
-- Trading behavior
-- Action distributions
-- Portfolio performance evolution
+- Portfolio evolution
+- Reward behavior
+- Trading actions
+- Decision distributions
+- Reinforcement learning performance
 
 ---
 
@@ -177,8 +178,8 @@ Power BI dashboards enabled interactive exploration of:
 
 - Reinforcement Learning portfolio optimization
 - Deep Q-Network implementation
-- Trading strategy analysis
 - Financial analytics dashboard
+- Trading strategy analysis
 - Power BI integration
 - Interactive RL visualization
 
@@ -188,9 +189,9 @@ Power BI dashboards enabled interactive exploration of:
 
 - PPO / A2C implementation
 - Multi-asset portfolio optimization
-- Real-time market integration
 - Risk-adjusted reward formulation
-- Deployment as analytics application
+- Real-time market integration
+- Deployment as analytics platform
 
 ---
 
